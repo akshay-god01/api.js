@@ -1,0 +1,16 @@
+{
+  "name": "download-api",
+  "version": "1.0.0",
+  "description": "API for downloading content from various platforms",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "api-dylux": "^1.8.5"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
