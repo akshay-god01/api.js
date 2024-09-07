@@ -1,16 +1,17 @@
 {
-  "name": "download-api",
+  "name": "media-downloader",
   "version": "1.0.0",
-  "description": "API for downloading content from various platforms",
-  "main": "server.js",
+  "description": "A simple Express.js app for media downloads",
+  "main": "express.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node express.js"
   },
   "dependencies": {
-    "express": "^4.18.2",
-    "api-dylux": "^1.8.5"
+    "api-dylux": "^1.0.0",  // Replace with the actual version you're using
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
   },
   "engines": {
-    "node": ">=14.0.0"
+    "node": ">=14.x"
   }
 }
