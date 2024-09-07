@@ -1,9 +1,11 @@
 const express = require('express');
+const cors = require('cors');
 const fg = require('api-dylux');
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000; // Use environment variable for port
 
 app.use(express.json());
+app.use(cors()); // Enable CORS
 
 app.get('/download/youtube/mp3', async (req, res) => {
   const url = req.query.url;
