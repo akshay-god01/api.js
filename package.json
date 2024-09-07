@@ -7,7 +7,7 @@
     "start": "node express.js"
   },
   "dependencies": {
-    "api-dylux": "^1.0.0",  // Replace with the actual version you're using
+    "api-dylux": "^1.0.0",
     "cors": "^2.8.5",
     "express": "^4.18.2"
   },
