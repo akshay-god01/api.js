@@ -4,7 +4,7 @@
   "description": "A simple Express.js app for media downloads",
   "main": "express.js",
   "scripts": {
-    "start": "node express.js"
+    "start": "node server.js"
   },
   "dependencies": {
     "api-dylux": "^1.0.0",
