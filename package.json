@@ -7,8 +7,7 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "api-dylux": "^1.0.0",
-    "cors": "^2.8.5",
+    "axios": "^1.7.7",
     "express": "^4.18.2"
   },
   "engines": {
